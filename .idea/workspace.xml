@@ -30,8 +30,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/picture_art/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="260" column="74" lean-forward="false" selection-start-line="260" selection-start-column="74" selection-end-line="260" selection-end-column="74" />
+            <state relative-caret-position="284">
+              <caret line="254" column="28" lean-forward="false" selection-start-line="254" selection-start-column="28" selection-end-line="254" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -181,12 +181,12 @@
       <updated>1541076525730</updated>
       <workItem from="1541076527828" duration="25353000" />
       <workItem from="1541172614019" duration="592000" />
-      <workItem from="1541253203258" duration="9599000" />
+      <workItem from="1541253203258" duration="9744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35544000" />
+    <option name="totallyTimeSpent" value="35689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -345,8 +345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/picture_art/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="260" column="74" lean-forward="false" selection-start-line="260" selection-start-column="74" selection-end-line="260" selection-end-column="74" />
+        <state relative-caret-position="284">
+          <caret line="254" column="28" lean-forward="false" selection-start-line="254" selection-start-column="28" selection-end-line="254" selection-end-column="28" />
           <folding />
         </state>
       </provider>

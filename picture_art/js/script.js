@@ -252,7 +252,7 @@ wrapper.addEventListener('mouseout',function (event) {
 //ModalWithInterval start
 
 let popupConsultation = document.querySelector('.popup-consultation');
-setTimeout(modalTimeOut,6000);
+setTimeout(modalTimeOut,60000);
 function modalTimeOut() {
     let pup1 = document.querySelector('.popup-gift'),
         pup2 = document.querySelector('.popup-design'),
