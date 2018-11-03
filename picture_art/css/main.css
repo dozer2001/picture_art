@@ -100,7 +100,7 @@ h4 {
 }
 .fixed-gift {
   position: fixed;
-  z-index: 10000;
+  z-index: 999;
   display: inline;
   top: 4rem;
   right: 2rem;
@@ -1723,4 +1723,7 @@ h4 {
     padding: 3rem 3rem;
     width: 25rem;
   }
+}
+.hide{
+  display: none;
 }

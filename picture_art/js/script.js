@@ -1,16 +1,34 @@
 'use strict';
 
 //Slider start
-let slides = document.getElementsByClassName('main-slider-item');
-slides[1].style.display = 'none';
-let currentSlide = 0;
+// let slides = document.getElementsByClassName('main-slider-item');
+// slides[1].style.display = 'none';
+// let currentSlide = 0;
+//
+// // setInterval(nextSlide, 4000);
+//
+// function nextSlide() {
+//     slides[currentSlide].style.display = 'none';
+//     currentSlide = (currentSlide + 1) % slides.length;
+//     slides[currentSlide].style.display = 'block';
+// }
+// slider
+let imgMan = document.querySelector('.main-slider-item'),
+    imgWoman = document.querySelectorAll('.main-slider-item')[1];
 
-// setInterval(nextSlide, 4000);
 
-function nextSlide() {
-    slides[currentSlide].style.display = 'none';
-    currentSlide = (currentSlide + 1) % slides.length;
-    slides[currentSlide].style.display = 'block';
+
+setInterval(up, 8000);
+
+function up() {
+    imgMan.classList.add('hide');
+    imgWoman.classList.remove('hide');
+    setTimeout(down ,4000);
+
+    function down() {
+        imgMan.classList.remove('hide');
+        imgWoman.classList.add('hide')
+    }
 }
 
 
@@ -181,8 +199,6 @@ form.addEventListener('change', (event) => {
     }
     total = (optionsCost + sizeCost + materialCost);
     if (sizeCost > 0 && materialCost > 0) {
-        console.log(sizeCost);
-        console.log(materialCost);
         if (input.value == 'IWANTPOPART') {
             calcPrice.innerHTML = total - (total * 0.3) + 'рублей'
         }else{
