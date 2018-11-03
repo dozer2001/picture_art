@@ -171,6 +171,7 @@ form.addEventListener('change', (event) => {
 
     if (size == event.target) {
         sizeCost = event.target.selectedIndex * 100;
+
     }
     if (material == event.target) {
         materialCost = event.target.selectedIndex * 500;
@@ -180,13 +181,17 @@ form.addEventListener('change', (event) => {
     }
     total = (optionsCost + sizeCost + materialCost);
     if (sizeCost > 0 && materialCost > 0) {
-        calcPrice.innerHTML = total + 'рублей';
+        console.log(sizeCost);
+        console.log(materialCost);
+        if (input.value == 'IWANTPOPART') {
+            calcPrice.innerHTML = total - (total * 0.3) + 'рублей'
+        }else{
+            calcPrice.innerHTML = total + 'рублей';
+        }
     } else {
         calcPrice.innerHTML = 'Для расчета нужно выбрать размер картины и материал картины'
     }
 
-    if (input.value == 'IWANTPOPART') {
-        calcPrice.innerHTML = total - (total * 0.3) + 'рублей'
-    }
+
 });
 //Calc End
