@@ -23,24 +23,15 @@ let modal = document.querySelector('.popup-design'),
     closeOne = document.querySelector('.popup-design'),
     closeTwo = document.querySelector('.popup-consultation');
 
-button[0].addEventListener('click', function (event) {
-    modal.style.display = 'block';
-});
-button[1].addEventListener('click', function (event) {
-    modal.style.display = 'block';
-});
-button[2].addEventListener('click', function (event) {
-    modal.style.display = 'block';
-});
-button[8].addEventListener('click', function (event) {
-    modal.style.display = 'block';
-});
-button[3].addEventListener('click', function (event) {
-    modalTwo.style.display = 'block';
-});
-button[5].addEventListener('click', function (event) {
-    modalTwo.style.display = 'block';
-});
+for (let i = 0; i < button.length; i++) {
+    button[i].addEventListener('click', function (event) {
+        if (event.target.classList[2] === 'button-design') {
+            modal.style.display = 'block';
+        } else if (event.target.classList[2] === 'button-consultation') {
+            modalTwo.style.display = 'block';
+        }
+    });
+}
 closeOne.addEventListener('click', function (event) {
     if (event.target.className == 'popup-design' || event.target.className == 'popup-close') {
         modal.style.display = 'none';

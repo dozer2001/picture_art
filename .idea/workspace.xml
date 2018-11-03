@@ -4,6 +4,7 @@
     <list default="true" id="5fae485d-24c6-43df-9059-d4354ef13e99" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/picture_art/css/main.css" afterPath="$PROJECT_DIR$/picture_art/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/picture_art/js/script.js" afterPath="$PROJECT_DIR$/picture_art/js/script.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,41 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/picture_art/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="189" column="52" lean-forward="false" selection-start-line="189" selection-start-column="52" selection-end-line="189" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="27" column="60" lean-forward="true" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/picture_art/css/reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/picture_art/less/main.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="1591" column="34" lean-forward="false" selection-start-line="1591" selection-start-column="20" selection-end-line="1591" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/picture_art/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="1079" column="1" lean-forward="true" selection-start-line="1079" selection-start-column="1" selection-end-line="1079" selection-end-column="1" />
+            <state relative-caret-position="139">
+              <caret line="1008" column="19" lean-forward="true" selection-start-line="1008" selection-start-column="19" selection-end-line="1008" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -83,6 +64,7 @@
       <find>file_uploa</find>
       <find>form</find>
       <find>button-transparent</find>
+      <find>.popup-consultation</find>
       <find>.button-order</find>
     </findStrings>
   </component>
@@ -93,8 +75,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/picture_art/index.html" />
-        <option value="$PROJECT_DIR$/picture_art/js/script.js" />
         <option value="$PROJECT_DIR$/picture_art/css/main.css" />
+        <option value="$PROJECT_DIR$/picture_art/js/script.js" />
       </list>
     </option>
   </component>
@@ -197,12 +179,12 @@
       <updated>1541076525730</updated>
       <workItem from="1541076527828" duration="25353000" />
       <workItem from="1541172614019" duration="592000" />
-      <workItem from="1541253203258" duration="342000" />
+      <workItem from="1541253203258" duration="2819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26287000" />
+    <option name="totallyTimeSpent" value="28764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -317,26 +299,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/picture_art/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picture_art/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="189" column="52" lean-forward="false" selection-start-line="189" selection-start-column="52" selection-end-line="189" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/picture_art/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="202" column="52" lean-forward="false" selection-start-line="202" selection-start-column="34" selection-end-line="202" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture_art/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="1008" column="19" lean-forward="true" selection-start-line="1008" selection-start-column="19" selection-end-line="1008" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -349,10 +323,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/picture_art/css/main.css">
+    <entry file="file://$PROJECT_DIR$/picture_art/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="1079" column="1" lean-forward="true" selection-start-line="1079" selection-start-column="1" selection-end-line="1079" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture_art/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="60" lean-forward="true" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
           <folding />
         </state>
       </provider>
