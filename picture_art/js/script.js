@@ -1,7 +1,7 @@
 'use strict';
 
 
-// Slider Start
+// SliderTop Start
 let imgMan = document.querySelector('.main-slider-item'),
     imgWoman = document.querySelectorAll('.main-slider-item')[1];
 setInterval(up, 8000);
@@ -16,7 +16,8 @@ function up() {
         imgWoman.classList.add('hide')
     }
 }
-//Slide end
+
+//SliderTop end
 
 //Modal Start
 let modal = document.querySelector('.popup-design'),
@@ -204,44 +205,44 @@ let size1 = document.querySelector('.size-1'),
     size4 = document.querySelector('.size-4'),
     wrapper = document.querySelector('.sizes-wrapper'),
     sizesBlock = document.getElementsByClassName('.sizes-block');
-for(let i = 0; i < sizesBlock.length; i++){
+for (let i = 0; i < sizesBlock.length; i++) {
 
 }
 
 
-wrapper.addEventListener('mouseover',function (event) {
-   if(event.target.className === 'size-1' ){
-       size1.src = 'img/sizes-1-1.png';
-       size1.style.position = 'relative';
-       size1.style.zIndex = '300';
-   }else if (event.target.className === 'size-2'){
-       size2.src = 'img/sizes-2-1.png';
-       size2.style.position = 'relative';
-       size2.style.zIndex = '300';
-   }else if (event.target.className === 'size-3'){
-       size3.src = 'img/sizes-3-1.png';
-       size3.style.position = 'relative';
-       size3.style.zIndex = '300';
-   }else if (event.target.className === 'size-4'){
-       size4.src = 'img/sizes-4-1.png';
-       size4.style.position = 'relative';
-       size4.style.zIndex = '300';
-   }
+wrapper.addEventListener('mouseover', function (event) {
+    if (event.target.className === 'size-1') {
+        size1.src = 'img/sizes-1-1.png';
+        size1.style.position = 'relative';
+        size1.style.zIndex = '300';
+    } else if (event.target.className === 'size-2') {
+        size2.src = 'img/sizes-2-1.png';
+        size2.style.position = 'relative';
+        size2.style.zIndex = '300';
+    } else if (event.target.className === 'size-3') {
+        size3.src = 'img/sizes-3-1.png';
+        size3.style.position = 'relative';
+        size3.style.zIndex = '300';
+    } else if (event.target.className === 'size-4') {
+        size4.src = 'img/sizes-4-1.png';
+        size4.style.position = 'relative';
+        size4.style.zIndex = '300';
+    }
 });
-wrapper.addEventListener('mouseout',function (event) {
-    if(event.target.className === 'size-1' ){
+wrapper.addEventListener('mouseout', function (event) {
+    if (event.target.className === 'size-1') {
         size1.src = 'img/sizes-1.png';
         size1.style.position = '';
         size1.style.zIndex = '';
-    }else if (event.target.className === 'size-2'){
+    } else if (event.target.className === 'size-2') {
         size2.src = 'img/sizes-2.png';
         size2.style.position = '';
         size2.style.zIndex = '';
-    }else if (event.target.className === 'size-3'){
+    } else if (event.target.className === 'size-3') {
         size3.src = 'img/sizes-3.png';
         size3.style.position = '';
         size3.style.zIndex = '';
-    }else if (event.target.className === 'size-4'){
+    } else if (event.target.className === 'size-4') {
         size4.src = 'img/sizes-4.png';
         size4.style.position = '';
         size4.style.zIndex = '';
@@ -252,17 +253,135 @@ wrapper.addEventListener('mouseout',function (event) {
 //ModalWithInterval start
 
 let popupConsultation = document.querySelector('.popup-consultation');
-setTimeout(modalTimeOut,60000);
+setTimeout(modalTimeOut, 60000);
+
 function modalTimeOut() {
     let pup1 = document.querySelector('.popup-gift'),
         pup2 = document.querySelector('.popup-design'),
         pup3 = document.querySelector('.popup-consultation');
 
-    if(pup1.style.display !== 'block' && pup2.style.display !== 'block' && pup3.style.display !== 'block'){
+    if (pup1.style.display !== 'block' && pup2.style.display !== 'block' && pup3.style.display !== 'block') {
         popupConsultation.style.display = 'block';
     }
-
-
 }
 
 //ModalWithInterval end
+
+
+//blockFilter Start
+
+let menu = document.querySelector('.portfolio-menu'),
+    allLi = menu.getElementsByTagName('li'),
+    portfolio = document.getElementsByClassName('portfolio-block'),
+    lovers = document.getElementsByClassName('lovers'),
+    girl = document.getElementsByClassName('girl'),
+    chef = document.getElementsByClassName('chef'),
+    guy = document.getElementsByClassName('guy'),
+    portfolioNo = document.querySelector('.portfolio-no');
+
+menu.addEventListener('click', function (event) {
+
+    for (let i = 0; i < portfolio.length; i++) {
+        if (event.target.className === 'all') {
+            portfolio[i].style.display = 'block'
+        } else if (event.target.className === 'lovers') {
+            if (portfolio[i].classList[2] === 'lovers') {
+                portfolio[i].style.display = 'block'
+            } else {
+                portfolio[i].style.display = 'none'
+            }
+        } else if (event.target.className === 'girl') {
+            if (portfolio[i].classList[2] === 'girl') {
+                portfolio[i].style.display = 'block'
+            } else {
+                portfolio[i].style.display = 'none'
+            }
+        }else if (event.target.className === 'chef') {
+            if (portfolio[i].classList[2] === 'chef') {
+                portfolio[i].style.display = 'block'
+            } else {
+                portfolio[i].style.display = 'none'
+            }
+        }else if (event.target.className === 'guy') {
+            if (portfolio[i].classList[2] === 'guy') {
+                portfolio[i].style.display = 'block'
+            } else {
+                portfolio[i].style.display = 'none'
+            }
+        }else if(event.target.className === 'grandmother' || event.target.className === 'granddad'){
+            portfolio[i].style.display = 'none';
+            portfolioNo.style.display = 'block'
+        }
+    }
+    for(let i = 0; i < allLi.length; i++){
+        if(event.target.className !== 'active'){
+            allLi[i].classList.remove('active');
+            event.target.classList.add('active');
+        }
+    }
+
+
+    console.log(event.target);
+});
+
+//blockFilter End
+
+// SliderBot Start
+function mainSlider() {
+    let slides = document.querySelectorAll('.feedback-slider-item'),
+        slideIndex = 1,
+        prev = document.querySelector('.main-prev-btn'),
+        next = document.querySelector('.main-next-btn');
+
+    showSlides(slideIndex);
+
+    function showSlides(n) {
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = 3;
+        }
+        slides.forEach((item) => item.classList.add('hide'));
+        slides[slideIndex - 1].classList.remove('hide');
+    }
+
+    let idInterval = setInterval(zup, 14000);
+    let forSlide2 = () => {
+        slides.forEach((item) => item.classList.add('hide'));
+        slides[1].classList.remove('hide')
+
+    };
+    let forSlide1 = () => {
+        slides.forEach((item) => item.classList.add('hide'));
+        slides[0].classList.remove('hide')
+    };
+    let forSlide3 = () => {
+        slides.forEach((item) => item.classList.add('hide'));
+        slides[2].classList.remove('hide')
+    };
+
+    function zup() {
+        setTimeout(forSlide1, 0);
+        setTimeout(forSlide2, 4000);
+        setTimeout(forSlide3, 9000)
+    }
+
+    function toSlides(n) {
+        showSlides(slideIndex = n);
+    }
+
+    prev.addEventListener('click', () => {
+        toSlides(slideIndex - 1);
+        clearInterval(idInterval);
+    });
+    next.addEventListener('click', () => {
+        toSlides(slideIndex + 1);
+        clearInterval(idInterval);
+    });
+}
+
+let sliderTwo = mainSlider;
+sliderTwo();
+
+// SliderBot End
