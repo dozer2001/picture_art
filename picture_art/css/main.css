@@ -1725,6 +1725,9 @@ h4 {
   }
 }
 .hide{
+  display: none;
+}
+.hiden{
   opacity: 0;
   transition: opacity 2s ease;
 }

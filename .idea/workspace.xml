@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/picture_art/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="564" column="73" lean-forward="false" selection-start-line="564" selection-start-column="73" selection-end-line="564" selection-end-column="73" />
+            <state relative-caret-position="461">
+              <caret line="570" column="74" lean-forward="false" selection-start-line="570" selection-start-column="74" selection-end-line="570" selection-end-column="74" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/picture_art/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+            <state relative-caret-position="532">
+              <caret line="399" column="3" lean-forward="false" selection-start-line="399" selection-start-column="3" selection-end-line="399" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -47,8 +47,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/picture_art/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29410">
-              <caret line="1730" column="6" lean-forward="false" selection-start-line="1730" selection-start-column="6" selection-end-line="1730" selection-end-column="6" />
+            <state relative-caret-position="273">
+              <caret line="1729" column="6" lean-forward="false" selection-start-line="1729" selection-start-column="1" selection-end-line="1729" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -89,9 +89,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/picture_art/index.html" />
-        <option value="$PROJECT_DIR$/picture_art/css/main.css" />
         <option value="$PROJECT_DIR$/picture_art/js/script.js" />
+        <option value="$PROJECT_DIR$/picture_art/css/main.css" />
+        <option value="$PROJECT_DIR$/picture_art/index.html" />
       </list>
     </option>
   </component>
@@ -196,12 +196,12 @@
       <workItem from="1541172614019" duration="592000" />
       <workItem from="1541253203258" duration="10372000" />
       <workItem from="1541328399874" duration="16610000" />
-      <workItem from="1541416563489" duration="687000" />
+      <workItem from="1541416563489" duration="1576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53614000" />
+    <option name="totallyTimeSpent" value="54503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -407,32 +407,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/picture_art/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="399" column="3" lean-forward="false" selection-start-line="399" selection-start-column="3" selection-end-line="399" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/picture_art/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29410">
-          <caret line="1730" column="6" lean-forward="false" selection-start-line="1730" selection-start-column="6" selection-end-line="1730" selection-end-column="6" />
+        <state relative-caret-position="273">
+          <caret line="1729" column="6" lean-forward="false" selection-start-line="1729" selection-start-column="1" selection-end-line="1729" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/picture_art/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="564" column="73" lean-forward="false" selection-start-line="564" selection-start-column="73" selection-end-line="564" selection-end-column="73" />
+        <state relative-caret-position="461">
+          <caret line="570" column="74" lean-forward="false" selection-start-line="570" selection-start-column="74" selection-end-line="570" selection-end-column="74" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picture_art/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>

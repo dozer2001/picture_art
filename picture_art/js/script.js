@@ -397,7 +397,7 @@ let accordionHeading = document.getElementsByClassName('accordion-heading'),
     accordionBlock = document.getElementsByClassName('accordion-block');
 
 for (let i = 0; i < accordionHeading.length; i++) {
-    accordionBlock[i].style.display = 'none';
+    // accordionBlock[i].style.display = 'none';
     accordionHeading[i].addEventListener('click', () => {
         accordionBlock[i].classList.toggle("show");
     })
