@@ -26,7 +26,7 @@ let modal = document.querySelector('.popup-design'),
     closeOne = document.querySelector('.popup-design'),
     closeTwo = document.querySelector('.popup-consultation'),
     mainform = document.querySelector('.main-form'),
-    input1= document.getElementsByName('name');
+    input1 = document.getElementsByName('name');
 
 for (let i = 0; i < button.length; i++) {
     button[i].addEventListener('click', function (event) {
@@ -148,32 +148,31 @@ SendForm('.formOne');
 //GiftModal Start
 let giftImg = document.querySelector('.fixed-gift'),
     gift = document.querySelector('.popup-gift'),
-    docHeight = document.documentElement.clientHeight,
-    body = document.querySelector('body');
-
+    body = document.querySelector('body'),
+    pup = true;
 
 document.addEventListener('scroll', function (event) {
     let a = (body.getBoundingClientRect().top);
-     let   b = (body.clientHeight - 600);
-    console.log(b);
-    console.log(a+b);
+    let b = (body.clientHeight - 600);
+    if (a + b < 350) {
+        if (pup == true) {
+            gift.style.display = 'block';
+            document.querySelector('body').style.overflowY = 'hidden';
+            giftImg.style.display = 'none';
+            pup = false;
+        }
+    }
 
-    if(a+b < 350){
-
-       gift.style.display = ' block';
-        document.querySelector('body').style.overflowY = 'hidden';
-       giftImg.style.display = 'none';
-
-   }
     gift.addEventListener('click', (event) => {
         if (event.target.className == 'popup-gift' || event.target.className == 'popup-close') {
             gift.style.display = 'none';
             document.querySelector('body').style.overflowY = 'auto';
+            pup = false;
         }
     });
 
 
-},);
+});
 
 
 giftImg.addEventListener('click', () => {
@@ -443,11 +442,20 @@ let accordionHeading = document.getElementsByClassName('accordion-heading'),
     accordionBlock = document.getElementsByClassName('accordion-block');
 
 for (let i = 0; i < accordionHeading.length; i++) {
-     accordionBlock[i].style.display = 'none';
+
     accordionHeading[i].addEventListener('click', () => {
+        for (let i = 0; i < accordionHeading.length; i++) {
+            accordionBlock[i].style.display = 'none';
+            accordionBlock[i].classList.remove('show');
+        }
         accordionBlock[i].classList.toggle("show");
-        accordionHeading[i].style.color = '#0006ff'
-    })
+        accordionHeading[i].style.color = '#0006ff';
+    });
+
+
+    accordionBlock[i].style.display = 'none';
+
+
 }
 
 //Acardion End
