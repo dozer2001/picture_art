@@ -24,7 +24,9 @@ let modal = document.querySelector('.popup-design'),
     modalTwo = document.querySelector('.popup-consultation'),
     button = document.getElementsByClassName('button-order'),
     closeOne = document.querySelector('.popup-design'),
-    closeTwo = document.querySelector('.popup-consultation');
+    closeTwo = document.querySelector('.popup-consultation'),
+    mainform = document.querySelector('.main-form'),
+    input1= document.getElementsByName('name');
 
 for (let i = 0; i < button.length; i++) {
     button[i].addEventListener('click', function (event) {
@@ -56,11 +58,27 @@ closeTwo.addEventListener('click', function (event) {
 let statusMessage = document.createElement('div'),
     img = document.createElement('img'),
     phone = document.getElementsByName('phone'),
+    message = document.getElementsByName('message'),
     msg = {
         loading: 'loading..',
-        ready: 'loading ready',
+        ready: 'Message sent',
         error: 'error'
     };
+
+// for(let i = 0; i < message.length; i++){
+//
+//     message[i].addEventListener('keydown', function (event){
+//
+//         console.log(message[i].value);
+//         // if(message[i].value != /[a-zа-яё]/){
+//         //     console.log(1);
+//         //     event.preventDefault();
+//         //
+//         // }
+//     });
+//
+// }
+
 
 function SendForm(elem) {
     let form = document.querySelector(`${ elem}`),
@@ -68,9 +86,9 @@ function SendForm(elem) {
 
     phone.forEach(function (item) {
         item.addEventListener('keypress', function (event) {
-            if (event.which != 43 && ( event.which < 48 || event.which > 57)) {
-
+            if (event.which !== 43 && ( event.which < 48 || event.which > 57)) {
                 event.preventDefault();
+
             }
             form.addEventListener('submit', function (event) {
                 event.preventDefault();
@@ -129,14 +147,43 @@ SendForm('.formOne');
 
 //GiftModal Start
 let giftImg = document.querySelector('.fixed-gift'),
-    gift = document.querySelector('.popup-gift');
+    gift = document.querySelector('.popup-gift'),
+    docHeight = document.documentElement.clientHeight,
+    body = document.querySelector('body');
+
+
+document.addEventListener('scroll', function (event) {
+    let a = (body.getBoundingClientRect().top);
+     let   b = (body.clientHeight - 600);
+    console.log(b);
+    console.log(a+b);
+
+    if(a+b < 350){
+
+       gift.style.display = ' block';
+        document.querySelector('body').style.overflowY = 'hidden';
+       giftImg.style.display = 'none';
+
+   }
+    gift.addEventListener('click', (event) => {
+        if (event.target.className == 'popup-gift' || event.target.className == 'popup-close') {
+            gift.style.display = 'none';
+            document.querySelector('body').style.overflowY = 'auto';
+        }
+    });
+
+
+},);
+
 
 giftImg.addEventListener('click', () => {
     gift.style.display = ' block';
+    document.querySelector('body').style.overflowY = 'hidden';
     giftImg.style.display = 'none';
     gift.addEventListener('click', (event) => {
         if (event.target.className == 'popup-gift' || event.target.className == 'popup-close') {
             gift.style.display = 'none';
+            document.querySelector('body').style.overflowY = 'auto';
         }
     });
 
@@ -392,14 +439,14 @@ sliderTwo();
 // SliderBot End
 
 //Acardion Start
-// доделать плавное появление
 let accordionHeading = document.getElementsByClassName('accordion-heading'),
     accordionBlock = document.getElementsByClassName('accordion-block');
 
 for (let i = 0; i < accordionHeading.length; i++) {
-    // accordionBlock[i].style.display = 'none';
+     accordionBlock[i].style.display = 'none';
     accordionHeading[i].addEventListener('click', () => {
         accordionBlock[i].classList.toggle("show");
+        accordionHeading[i].style.color = '#0006ff'
     })
 }
 
