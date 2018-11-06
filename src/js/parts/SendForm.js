@@ -14,31 +14,23 @@ function sendForm() {
             input = form.getElementsByTagName('input');
 
         form.addEventListener('keypress', function (event) {
-            if(event.target.name === 'phone'){
-                if (event.which != 43  &&( event.which < 48 || event.which > 57 || event.target.value.length == 10)) {
-
+            if (event.target.name === 'phone') {
+                if (event.which != 43 && ( event.which < 48 || event.which > 57 || event.target.value.length == 10)) {
                 }
             }
-            if(event.target.name === 'message' || event.target.name === 'name'){
-
-                console.log(event.keyCode);
-                if(event.keyCode > 1040 && event.keyCode < 1120){
-                    console.log(2);
-
-                }else {
-                    console.log(1);
+            if (event.target.name === 'message' || event.target.name === 'name') {
+                if (event.keyCode > 1040 && event.keyCode < 1120) {
+                } else {
                     event.preventDefault();
                 }
             }
-
         });
-
-
 
         form.addEventListener('submit', function (event) {
             event.preventDefault();
             form.appendChild(statusMessage);
             let formData = new FormData(form);
+
             function postData() {
                 return new Promise(function (resolve, reject) {
                     let request = new XMLHttpRequest();
@@ -64,6 +56,7 @@ function sendForm() {
                 }
                 setTimeout(() => statusMessage.innerHTML = '', 5000)
             }
+
             postData(FormData)
                 .then(() => {
                     statusMessage.innerHTML = msg.loading
@@ -83,4 +76,5 @@ function sendForm() {
     SendForm('.main-form');
     SendForm('.formMain');
 }
+
 export default sendForm;
