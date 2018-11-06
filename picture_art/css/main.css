@@ -1734,6 +1734,9 @@ h4 {
 .show{
   opacity: 1;
 }
+.header .showOne{
+  display: block;
+}
 
 
 @-webkit-keyframes shake {

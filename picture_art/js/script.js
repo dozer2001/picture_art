@@ -87,51 +87,49 @@ function SendForm(elem) {
 
     form.addEventListener('submit', function (event) {
 
-                event.preventDefault();
-                form.appendChild(statusMessage);
+        event.preventDefault();
+        form.appendChild(statusMessage);
 
-                let formData = new FormData(form);
+        let formData = new FormData(form);
 
-                function postData() {
-                    return new Promise(function (resolve, reject) {
-                        let request = new XMLHttpRequest();
-                        request.open('POST', 'server.php');
-                        request.setRequestHeader('Content-Type', 'application/x-ww-form-urlencoded');
+        function postData() {
+            return new Promise(function (resolve, reject) {
+                let request = new XMLHttpRequest();
+                request.open('POST', 'server.php');
+                request.setRequestHeader('Content-Type', 'application/x-ww-form-urlencoded');
 
-                        request.onreadystatechange = function () {
-                            if (request.readyState < 4) {
-                                resolve();
+                request.onreadystatechange = function () {
+                    if (request.readyState < 4) {
+                        resolve();
 
-                            } else if (request.readyState === 4 && request.status === 200) {
-                                resolve();
-                            } else {
-                                reject();
-                            }
-                        };
-                        request.send(formData);
-                    });
-                }// End PostData
-                function clearInput() {
-                    for (let i = 0; i < input.length; i++) {
-                        input[i].value = '';
+                    } else if (request.readyState === 4 && request.status === 200) {
+                        resolve();
+                    } else {
+                        reject();
                     }
-                    setTimeout(() => statusMessage.innerHTML= '', 5000)
-                }
-
-                postData(FormData)
-                    .then(() => {
-                        statusMessage.innerHTML = msg.loading
-                    })
-                    .then(() => {
-                        statusMessage.innerHTML = msg.ready
-                    })
-                    .catch(() => {
-                        statusMessage.innerHTML = msg.error
-                    })
-                    .then(clearInput);
+                };
+                request.send(formData);
             });
+        }// End PostData
+        function clearInput() {
+            for (let i = 0; i < input.length; i++) {
+                input[i].value = '';
+            }
+            setTimeout(() => statusMessage.innerHTML = '', 5000)
+        }
 
-
+        postData(FormData)
+            .then(() => {
+                statusMessage.innerHTML = msg.loading
+            })
+            .then(() => {
+                statusMessage.innerHTML = msg.ready
+            })
+            .catch(() => {
+                statusMessage.innerHTML = msg.error
+            })
+            .then(clearInput);
+    });
 
 
 }
@@ -509,3 +507,26 @@ for (let i = 0; i < accordionHeading.length; i++) {
 
 
 //Acardion End
+
+
+// BurgerMenu Start
+let burgerMenu = document.querySelector('.burger-menu'),
+    burger = document.querySelector('.burger'),
+    mq = window.matchMedia("screen and (max-width: 768px)");
+mq.addListener(setup_for_width); // Добавим прослушку на смену результата
+setup_for_width(mq); // Вызовем нашу функцию
+function setup_for_width(mq) {
+    if (mq.matches) {
+        burgerMenu.classList.remove('hide');
+        burgerMenu.classList.remove('showOne');
+    } else {
+        burgerMenu.classList.add('hide')
+    }
+    burger.addEventListener('click', () => {
+
+        burgerMenu.classList.toggle('showOne')
+    });
+}
+
+
+// BurgerMenu End
