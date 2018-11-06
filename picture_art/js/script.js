@@ -84,13 +84,9 @@ function SendForm(elem) {
     let form = document.querySelector(`${ elem}`),
         input = form.getElementsByTagName('input');
 
-    phone.forEach(function (item) {
-        item.addEventListener('keypress', function (event) {
-            if (event.which !== 43 && ( event.which < 48 || event.which > 57)) {
-                event.preventDefault();
 
-            }
-            form.addEventListener('submit', function (event) {
+    form.addEventListener('submit', function (event) {
+
                 event.preventDefault();
                 form.appendChild(statusMessage);
 
@@ -119,7 +115,7 @@ function SendForm(elem) {
                     for (let i = 0; i < input.length; i++) {
                         input[i].value = '';
                     }
-                    setTimeout(() => img.src = '', 5000)
+                    setTimeout(() => statusMessage.innerHTML= '', 5000)
                 }
 
                 postData(FormData)
@@ -135,13 +131,69 @@ function SendForm(elem) {
                     .then(clearInput);
             });
 
-        });
-    });
+
 
 
 }
 
+SendForm('.form');
 SendForm('.formOne');
+SendForm('.main-form');
+
+SendForm('.formMain');
+
+
+// function onSubmit(event) {
+//     let messages = {
+//         sending: '<p>Отправляем данные.</p>',
+//         success: '<h4>data send</h4>',
+//         fail: '<h4>send error</h4>'
+//     };
+//     let statusMsg = document.createElement('div');
+//     document.isAnyButtonPushed = true;
+//
+//     event.preventDefault();
+//
+//     sendFormData(new FormData(event.target))
+//         .then(() => {
+//             event.target.appendChild(statusMsg);
+//             statusMsg.innerHTML = messages.sending;
+//         })
+//         .then(() => {
+//             event.target.closest('.popup-content').innerHTML = messages.success;
+//         })
+//         .catch(() => {
+//             event.target.closest('.popup-content').innerHTML = messages.fail;
+//         });
+//
+//     event.target.dispatchEvent(new Event('reset'));
+//
+//     setTimeout(() => {
+//         statusMsg.innerHTML = '';
+//         statusMsg.remove();
+//     }, 5000);
+//
+//     function sendFormData(data) {
+//         return new Promise((goodNews, badNews) => {
+//             let request = new XMLHttpRequest();
+//
+//             request.open('POST', 'server.php');
+//             request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+//
+//             request.send(data);
+//
+//             request.addEventListener('readystatechange', () => {
+//                 if (request.readyState < 4) {
+//                     goodNews();
+//                 } else if (request.readyState === 4 && request.status === 200) {
+//                     goodNews();
+//                 } else {
+//                     badNews();
+//                 }
+//             });
+//         });
+//     }
+// }
 
 //SendForm End
 
@@ -447,15 +499,13 @@ for (let i = 0; i < accordionHeading.length; i++) {
         for (let i = 0; i < accordionHeading.length; i++) {
             accordionBlock[i].style.display = 'none';
             accordionBlock[i].classList.remove('show');
+            accordionHeading[i].style.color = 'black';
         }
         accordionBlock[i].classList.toggle("show");
         accordionHeading[i].style.color = '#0006ff';
     });
-
-
     accordionBlock[i].style.display = 'none';
-
-
 }
+
 
 //Acardion End
