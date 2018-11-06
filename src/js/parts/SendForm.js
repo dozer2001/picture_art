@@ -21,14 +21,13 @@ function sendForm() {
             }
             if(event.target.name === 'message' || event.target.name === 'name'){
 
-                console.log(event.target.value.trim());
-                if(/^[а-яё]+$/i.test(event.target.value.trim())){
-                    console.log(2);event.preventDefault();
+                console.log(event.keyCode);
+                if(event.keyCode > 1040 && event.keyCode < 1120){
+                    console.log(2);
 
                 }else {
                     console.log(1);
-
-
+                    event.preventDefault();
                 }
             }
 

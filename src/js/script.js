@@ -10,7 +10,7 @@ import modalWithInterval from './parts/ModalWithInterval';
 import blockFilter from './parts/BlockFilter';
 import bottomSlider from './parts/SliderBot';
 import acardion from './parts/Acardion';
-import validation from './parts/Validation';
+
 
 burgerMenu();
 sliderTop();
@@ -24,6 +24,6 @@ modalWithInterval();
 blockFilter();
 bottomSlider();
 acardion();
-validation();
+
 
 

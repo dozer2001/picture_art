@@ -2,119 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fae485d-24c6-43df-9059-d4354ef13e99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/parts/Acardion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/parts/BlockFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/parts/Calc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/parts/GiftModal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/parts/ImgMouseOver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/parts/Modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/parts/ModalWithInterval.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/parts/MoreStylesModal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/parts/SendForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/parts/SliderBot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/parts/SliderTop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/parts/Validation.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/fonts/Circe-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/fonts/Circe-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/fonts/Circe-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/fonts/Circe-ExtraBold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/fonts/Circe-ExtraBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/fonts/Circe-ExtraBold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/fonts/Circe-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/fonts/Circe-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/fonts/Circe-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/fonts/Circe-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/fonts/Circe-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/fonts/Circe-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/24-hours.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/brushes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/burger.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/button-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/button-right-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/calc-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/camera.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/card-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/card-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/card-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/checked.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/desktop.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/down-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/features-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/features-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/features-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/features-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/features-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/features-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/feedback-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/feedback-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/feedback-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/gift-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/gift-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/gift-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/gift-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/gift.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/left-arr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/main-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/main-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/main-arrow-left-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/main-arrow-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/main-arrow-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/paints.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/palette.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/portfolio-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/portfolio-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/portfolio-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/portfolio-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/portfolio-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/portfolio-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/portfolio-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/portfolio-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/portfolio-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/portfolio-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/promo-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/promo-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/promo-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/reload.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/right-arr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/scheme-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/scheme-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/scheme-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/scheme-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/scheme-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/scheme-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/sizes-1-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/sizes-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/sizes-2-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/sizes-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/sizes-3-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/sizes-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/sizes-4-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/sizes-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/sizes-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/slider-arrow-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/slider-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/spirt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/styles-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/styles-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/styles-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/styles-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/styles-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/styles-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/styles-7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/styles-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/telephone.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/img/whatsapp.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/js/wow.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/less/main.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/picture_art/server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/parts/Validation.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/bundle.js" afterPath="$PROJECT_DIR$/src/js/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/parts/SendForm.js" afterPath="$PROJECT_DIR$/src/js/parts/SendForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/script.js" afterPath="$PROJECT_DIR$/src/js/script.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -131,8 +24,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -150,11 +43,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SendForm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/parts/SendForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+            <state relative-caret-position="442">
+              <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -163,28 +66,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="925" column="22" lean-forward="true" selection-start-line="925" selection-start-column="22" selection-end-line="925" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Acardion.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/parts/Acardion.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/parts/Validation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="845" column="0" lean-forward="false" selection-start-line="845" selection-start-column="0" selection-end-line="850" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -228,6 +111,7 @@
       <find>sho</find>
       <find>img</find>
       <find>.often-questions .brushes</find>
+      <find>.feedback-block .button-order</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -251,12 +135,13 @@
         <option value="$PROJECT_DIR$/src/js/bundle.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/js/parts/SliderBot.js" />
-        <option value="$PROJECT_DIR$/src/js/script.js" />
         <option value="$PROJECT_DIR$/src/js/parts/Validation.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/js/parts/SendForm.js" />
         <option value="$PROJECT_DIR$/src/css/main.css" />
         <option value="$PROJECT_DIR$/src/js/parts/Acardion.js" />
+        <option value="$PROJECT_DIR$/src/js/parts/SendForm.js" />
+        <option value="$PROJECT_DIR$/src/js/script.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -311,31 +196,6 @@
               <item name="picture_art" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="picture_art" type="b2602c69:ProjectViewProjectNode" />
-              <item name="picture_art" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="picture_art" type="b2602c69:ProjectViewProjectNode" />
-              <item name="picture_art" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="picture_art" type="b2602c69:ProjectViewProjectNode" />
-              <item name="picture_art" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="parts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="picture_art" type="b2602c69:ProjectViewProjectNode" />
-              <item name="picture_art" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="less" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -379,12 +239,12 @@
       <workItem from="1541253203258" duration="10372000" />
       <workItem from="1541328399874" duration="16610000" />
       <workItem from="1541416563489" duration="20192000" />
-      <workItem from="1541492900522" duration="25178000" />
+      <workItem from="1541492900522" duration="28259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98297000" />
+    <option name="totallyTimeSpent" value="101378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -726,6 +586,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/parts/Validation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -734,13 +602,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/script.js">
+    <entry file="file://$PROJECT_DIR$/src/js/parts/Acardion.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="845" column="0" lean-forward="false" selection-start-line="845" selection-start-column="0" selection-end-line="850" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -752,34 +626,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/parts/SendForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        <state relative-caret-position="442">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
+    <entry file="file://$PROJECT_DIR$/src/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="925" column="22" lean-forward="true" selection-start-line="925" selection-start-column="22" selection-end-line="925" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="340">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/parts/Acardion.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
