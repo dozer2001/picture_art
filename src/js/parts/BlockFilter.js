@@ -10,7 +10,8 @@ function blockFilter() {
     menu.addEventListener('click', function (event) {
         for (let i = 0; i < portfolio.length; i++) {
             if (event.target.className === 'all') {
-                portfolio[i].style.display = 'block'
+                portfolio[i].style.display = 'block';
+                portfolioNo.style.display = 'none'
             } else if (event.target.className === 'lovers') {
                 if (portfolio[i].classList[2] === 'lovers') {
                     portfolio[i].style.display = 'block';
