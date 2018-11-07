@@ -3,8 +3,9 @@ function giftModal() {
         gift = document.querySelector('.popup-gift'),
         body = document.querySelector('body'),
         pup = true;
-    gift.addEventListener('click', (event) => {
+    body.addEventListener('click', (event) => {
         if (event.target.className == 'popup-gift' || event.target.className == 'popup-close') {
+            console.log(event.target);
             gift.style.display = 'none';
             document.querySelector('body').style.overflowY = 'auto';
             pup = false;
