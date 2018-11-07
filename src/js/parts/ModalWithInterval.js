@@ -9,6 +9,7 @@ function modalWithInterval() {
 
         if (pup1.style.display !== 'block' && pup2.style.display !== 'block' && pup3.style.display !== 'block') {
             popupConsultation.style.display = 'block';
+            document.querySelector('body').style.overflowY = 'hidden';
         }
         clearTimeout(modalTimeOut);
     }

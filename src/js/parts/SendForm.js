@@ -9,14 +9,11 @@ function sendForm() {
         };
 
 
-
     function SendForm(elem) {
         let form = document.querySelector(`${elem}`),
             input = form.getElementsByTagName('input'),
-           textarea = document.getElementsByTagName('textarea'),
+            textarea = document.getElementsByTagName('textarea'),
             inputText = document.querySelector('.input-text');
-        console.log(inputText);
-        console.log(textarea);
         form.addEventListener('keypress', function (event) {
             if (event.target.name === 'phone') {
                 if (event.which != 43 && ( event.which < 48 || event.which > 57 || event.target.value.length == 10)) {

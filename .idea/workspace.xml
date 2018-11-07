@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5fae485d-24c6-43df-9059-d4354ef13e99" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/bundle.js" afterPath="$PROJECT_DIR$/src/js/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/parts/ModalWithInterval.js" afterPath="$PROJECT_DIR$/src/js/parts/ModalWithInterval.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/parts/SendForm.js" afterPath="$PROJECT_DIR$/src/js/parts/SendForm.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendForm.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SendForm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/parts/SendForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="-408">
+              <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -68,8 +68,18 @@
       <file leaf-file-name="Modal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/parts/Modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="94">
+              <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModalWithInterval.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/parts/ModalWithInterval.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -96,7 +106,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hidd</find>
       <find>fixed-gift</find>
       <find>shake</find>
       <find>feedback-slider</find>
@@ -126,6 +135,7 @@
       <find>form</find>
       <find>email</find>
       <find>textarea</find>
+      <find>popup-consultation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/js/parts/MoreStylesModal.js" />
         <option value="$PROJECT_DIR$/src/js/parts/Calc.js" />
         <option value="$PROJECT_DIR$/src/js/parts/ImgMouseOver.js" />
-        <option value="$PROJECT_DIR$/src/js/parts/ModalWithInterval.js" />
         <option value="$PROJECT_DIR$/src/js/parts/BlockFilter.js" />
         <option value="$PROJECT_DIR$/src/js/bundle.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
@@ -156,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/js/parts/Validation.js" />
         <option value="$PROJECT_DIR$/src/js/script.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/js/parts/ModalWithInterval.js" />
         <option value="$PROJECT_DIR$/src/js/parts/SendForm.js" />
       </list>
     </option>
@@ -269,12 +279,12 @@
       <workItem from="1541416563489" duration="20192000" />
       <workItem from="1541492900522" duration="30499000" />
       <workItem from="1541530733736" duration="4548000" />
-      <workItem from="1541598723791" duration="6924000" />
+      <workItem from="1541598723791" duration="7314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115090000" />
+    <option name="totallyTimeSpent" value="115480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -416,14 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/parts/ModalWithInterval.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -496,22 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/parts/Modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/parts/Validation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/parts/CheckAndSend.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -542,10 +528,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/parts/SendForm.js">
+    <entry file="file://$PROJECT_DIR$/src/js/parts/Validation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/parts/Modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/parts/SendForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/parts/ModalWithInterval.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
           <folding />
         </state>
       </provider>
