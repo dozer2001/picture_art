@@ -9,13 +9,16 @@ function sendForm() {
         };
 
 
+
     function SendForm(elem) {
         let form = document.querySelector(`${elem}`),
-            input = form.getElementsByTagName('input');
-
+            input = form.getElementsByTagName('input'),
+           textarea = document.getElementsByTagName('textarea'),
+            inputText = document.querySelector('.input-text');
+        console.log(inputText);
+        console.log(textarea);
         form.addEventListener('keypress', function (event) {
             if (event.target.name === 'phone') {
-                console.log(event.target.value.length);
                 if (event.which != 43 && ( event.which < 48 || event.which > 57 || event.target.value.length == 10)) {
                     event.preventDefault();
                 }
@@ -53,6 +56,8 @@ function sendForm() {
                 });
             }// End PostData
             function clearInput() {
+                textarea[0].value = '';
+                inputText.value = '';
                 for (let i = 0; i < input.length; i++) {
                     input[i].value = '';
                 }
