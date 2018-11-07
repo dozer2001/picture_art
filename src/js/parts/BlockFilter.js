@@ -13,25 +13,29 @@ function blockFilter() {
                 portfolio[i].style.display = 'block'
             } else if (event.target.className === 'lovers') {
                 if (portfolio[i].classList[2] === 'lovers') {
-                    portfolio[i].style.display = 'block'
+                    portfolio[i].style.display = 'block';
+                    portfolioNo.style.display = 'none'
                 } else {
                     portfolio[i].style.display = 'none'
                 }
             } else if (event.target.className === 'girl') {
                 if (portfolio[i].classList[2] === 'girl') {
-                    portfolio[i].style.display = 'block'
+                    portfolio[i].style.display = 'block';
+                    portfolioNo.style.display = 'none'
                 } else {
                     portfolio[i].style.display = 'none'
                 }
             } else if (event.target.className === 'chef') {
                 if (portfolio[i].classList[2] === 'chef') {
-                    portfolio[i].style.display = 'block'
+                    portfolio[i].style.display = 'block';
+                    portfolioNo.style.display = 'none'
                 } else {
                     portfolio[i].style.display = 'none'
                 }
             } else if (event.target.className === 'guy') {
                 if (portfolio[i].classList[2] === 'guy') {
-                    portfolio[i].style.display = 'block'
+                    portfolio[i].style.display = 'block';
+                    portfolioNo.style.display = 'none'
                 } else {
                     portfolio[i].style.display = 'none'
                 }

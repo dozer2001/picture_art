@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5fae485d-24c6-43df-9059-d4354ef13e99" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/bundle.js" afterPath="$PROJECT_DIR$/src/js/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/parts/ModalWithInterval.js" afterPath="$PROJECT_DIR$/src/js/parts/ModalWithInterval.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/parts/SendForm.js" afterPath="$PROJECT_DIR$/src/js/parts/SendForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/parts/BlockFilter.js" afterPath="$PROJECT_DIR$/src/js/parts/BlockFilter.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,13 +32,23 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="782">
               <caret line="746" column="34" lean-forward="false" selection-start-line="746" selection-start-column="34" selection-end-line="746" selection-end-column="34" />
               <folding>
                 <element signature="e#32897#32904#1" expanded="true" />
                 <element signature="e#33511#33518#1" expanded="true" />
                 <element signature="e#33894#33901#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockFilter.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/parts/BlockFilter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,8 +66,8 @@
       <file leaf-file-name="SendForm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/parts/SendForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state relative-caret-position="136">
+              <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -75,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModalWithInterval.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ModalWithInterval.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/parts/ModalWithInterval.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -134,8 +142,8 @@
       <find>NameCur</find>
       <find>form</find>
       <find>email</find>
-      <find>textarea</find>
       <find>popup-consultation</find>
+      <find>textarea</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/js/parts/MoreStylesModal.js" />
         <option value="$PROJECT_DIR$/src/js/parts/Calc.js" />
         <option value="$PROJECT_DIR$/src/js/parts/ImgMouseOver.js" />
-        <option value="$PROJECT_DIR$/src/js/parts/BlockFilter.js" />
         <option value="$PROJECT_DIR$/src/js/bundle.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/js/parts/SliderBot.js" />
@@ -167,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/parts/ModalWithInterval.js" />
         <option value="$PROJECT_DIR$/src/js/parts/SendForm.js" />
+        <option value="$PROJECT_DIR$/src/js/parts/BlockFilter.js" />
       </list>
     </option>
   </component>
@@ -279,12 +287,12 @@
       <workItem from="1541416563489" duration="20192000" />
       <workItem from="1541492900522" duration="30499000" />
       <workItem from="1541530733736" duration="4548000" />
-      <workItem from="1541598723791" duration="7314000" />
+      <workItem from="1541598723791" duration="8698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115480000" />
+    <option name="totallyTimeSpent" value="116864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -433,16 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/parts/BlockFilter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!block;n#blockFilter#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -516,18 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="746" column="34" lean-forward="false" selection-start-line="746" selection-start-column="34" selection-end-line="746" selection-end-column="34" />
-          <folding>
-            <element signature="e#32897#32904#1" expanded="true" />
-            <element signature="e#33511#33518#1" expanded="true" />
-            <element signature="e#33894#33901#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/parts/Validation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -544,18 +530,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/parts/SendForm.js">
+    <entry file="file://$PROJECT_DIR$/src/js/parts/ModalWithInterval.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/parts/ModalWithInterval.js">
+    <entry file="file://$PROJECT_DIR$/src/js/parts/SendForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+        <state relative-caret-position="136">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="746" column="34" lean-forward="false" selection-start-line="746" selection-start-column="34" selection-end-line="746" selection-end-column="34" />
+          <folding>
+            <element signature="e#32897#32904#1" expanded="true" />
+            <element signature="e#33511#33518#1" expanded="true" />
+            <element signature="e#33894#33901#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/parts/BlockFilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
           <folding />
         </state>
       </provider>
